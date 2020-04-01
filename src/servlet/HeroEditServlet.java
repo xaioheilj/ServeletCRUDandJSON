@@ -20,7 +20,7 @@ public class HeroEditServlet extends HttpServlet {
         Hero hero = new HeroDAO().get(id);
 
         StringBuffer format = new StringBuffer();
-        response.setContentType("text/html; charset=UTF-8");
+       // response.setContentType("text/html; charset=UTF-8");
 
         format.append("<!DOCTYPE html>");
 
